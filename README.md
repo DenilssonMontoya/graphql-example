@@ -1,6 +1,6 @@
 # Graphql server - query example
 
-Learn how to create a Graphql server using spring.
+**Learn how to create a Graphql server using spring.**
 
 ## Prerequistes
 - Java 17.
@@ -20,9 +20,9 @@ Execute following commands to build and run the Graphql server.
 
 ## Testing
 
-This project uses H2 database that serves as source for the Person object that will be exposed using Graphql to include aditional information to query modify resources/data.sql file and include new INSERT statements . 
+This project uses a H2 database that serves as a source for the Person object that will be exposed using Graphql, to include additional information to query you need to modify resources/data.sql file and include new INSERT statements. 
 
-Using a GraphQL client like Postman we will be able to query our API. GraphQl server endpoint will be available at http://localhost:8080/graphql .
+By using a GraphQL client like Postman we will be able to query our API. GraphQl server endpoint will be available at http://localhost:8080/graphql .
 
 Query examples:
 
