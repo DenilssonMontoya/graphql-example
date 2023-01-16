@@ -1,0 +1,10 @@
+type Query {
+  personById(id: ID): Person
+}
+
+type Person {
+  id: ID
+  name: String
+  lastName: String
+  gender: String
+}
